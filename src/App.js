@@ -1,18 +1,19 @@
 import React from 'react';
 import background from './assets/images/background.jpg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="header">
-          <div className="title-text">
-            <h1 className="title-text">Hello, my name is Zach.</h1>
-            <h4>I design and build software.</h4>
-          </div>
+    <div className="App" >
+      <div className="flex bg-cover bg-center h-screen w-screen" style={{backgroundImage: `url(${background})`}}>
+        <div className="m-auto">
+          <h1 className="text-white font-bold" style={{fontFamily: 'Roboto'}}>
+            Hello, my name is Zach.
+          </h1>
+          <h2 className="text-white">
+            I design and build software.
+          </h2>
         </div>
-      </header>
+      </div>
     </div>
   );
 }
