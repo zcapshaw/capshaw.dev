@@ -23,10 +23,10 @@ function App() {
               Contact me
             </button>   
           </div>
-          <div className="m-0 bg-black">
-            <FontAwesomeIcon className="center" icon={faChevronDown} color="white" size="2x"/>
-          </div>
-        </div>     
+        </div> 
+        <div className="flex w-screen justify-center mb-6 bottom-0 absolute">
+            <FontAwesomeIcon className="center" icon={faChevronDown} color="white" size="lg"/>
+        </div>    
       </div>
       <section>
         <div className="h-screen"> 
