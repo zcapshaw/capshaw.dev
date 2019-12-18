@@ -651,17 +651,17 @@ a {
   text-decoration: underline;
 }
 
-.gradient {
-  background: -webkit-gradient(
-        linear, 
-        left top, left bottom, 
-        from(rgba(0, 0, 0, 0.7)), 
-        to(rgba(0, 0, 0, 0.7))
-      ),;
-  background: linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
-      ),
+.btn {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-width: 2px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .sr-only {
