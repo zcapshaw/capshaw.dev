@@ -1,6 +1,6 @@
 module.exports = {
   prefix: '',
-  important: false,
+  important: true,
   separator: ':',
   theme: {
     screens: {
@@ -220,20 +220,8 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
-      sans: [
-        'Roboto',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
-      ],
+      sans: ['Roboto', 'sans-serif'],
+      test: ['Georgia'],
       serif: [
         'Georgia',
         'Cambria',

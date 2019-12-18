@@ -1,18 +1,31 @@
 @tailwind base;
 
+@tailwind components;
+
 h1 {
-    @apply text-5xl;
+    @apply text-3xl;
+    font-family: 'Roboto', sans-serif;
 }
 h2 {
-    @apply text-3xl;
+    @apply text-2xl;
+    font-family: 'Roboto', sans-serif;
 }
 h3 {
     @apply text-xl;
+    font-family: 'Roboto', sans-serif;
+}
+p  {
+    font-family: 'Roboto', sans-serif;
 }
 a {
     @apply text-blue-600 underline;
 }
 
-@tailwind components;
+.gradient {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
 
+}
 @tailwind utilities;

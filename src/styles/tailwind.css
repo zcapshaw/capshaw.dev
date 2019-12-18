@@ -599,23 +599,6 @@ video {
   height: auto;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 1.875rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-}
-
-a {
-  color: #3182ce;
-  text-decoration: underline;
-}
-
 .container {
   width: 100%;
 }
@@ -642,6 +625,43 @@ a {
   .container {
     max-width: 1280px;
   }
+}
+
+h1 {
+  font-size: 1.875rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+p  {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #3182ce;
+  text-decoration: underline;
+}
+
+.gradient {
+  background: -webkit-gradient(
+        linear, 
+        left top, left bottom, 
+        from(rgba(0, 0, 0, 0.7)), 
+        to(rgba(0, 0, 0, 0.7))
+      ),;
+  background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
 }
 
 .sr-only {
