@@ -1,7 +1,6 @@
 {
   "short_name": "Capshaw.dev",
   "name": "Capshaw.dev",
-  "homepage": "https://zcapshaw.github.io/zcapshaw.github.io",
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,12 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"predeploy": "yarn run build",
-		"deploy": "gh-pages -d dist",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"}
+  "background_color": "#ffffff"
 }
