@@ -4,6 +4,7 @@ import { faChevronDown, faBars } from '@fortawesome/free-solid-svg-icons'
 import {faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import background from './assets/images/background.jpg';
 
+
 function App() {
   return (
     <div className="App" >
@@ -34,13 +35,19 @@ function App() {
         <div className="sm:mr-8 absolute right-0 bottom-0 ">
           <ul>
             <li className="my-6 mx-4 inline-block">
-              <FontAwesomeIcon className="center" icon={faGithub} color="#999999" size="lg"/> 
+              <a href="https://github.com/zcapshaw" target="_blank" rel='noreferrer noopener' className='icon'>
+                <FontAwesomeIcon className="center" icon={faGithub} size="lg"/> 
+              </a>
             </li>
             <li className="my-6 mx-4 inline-block">
-              <FontAwesomeIcon className="center" icon={faLinkedin} color="#999999" size="lg"/>
+              <a href="https://www.linkedin.com/in/zcapshaw/" target="_blank" rel='noreferrer noopener' className='icon'>
+                  <FontAwesomeIcon className="center" icon={faLinkedin} size="lg"/>
+              </a>
             </li>
             <li className="my-6 mx-4 inline-block">
-              <FontAwesomeIcon className="center" icon={faInstagram} color="#999999" size="lg"/>
+              <a href="https://www.instagram.com/zacapshaw/" target="_blank" rel='noreferrer noopener' className='icon'>
+                <FontAwesomeIcon className="center" icon={faInstagram} size="lg"/>
+              </a>
             </li>
           </ul>
         </div>    

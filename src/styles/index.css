@@ -20,9 +20,14 @@ p  {
 a {
     @apply text-blue-600 underline;
 }
-
 .btn {
     @apply text-white text-xs font-medium tracking-wider uppercase border-2 px-6 py-2;
+}
+.icon {
+    color: #999999
+}
+.icon:hover {
+    color: #CCCCCC
 }
 
 @tailwind utilities;
