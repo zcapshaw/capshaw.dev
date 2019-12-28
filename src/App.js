@@ -1,94 +1,87 @@
-import React from 'react';
+import React, { Component } from 'react';
+import HomeScreen from './screens/HomeScreen';
+import AboutMe from './screens/AboutMe';
+import IconLink from './components/IconLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown, faBars } from '@fortawesome/free-solid-svg-icons'
-import {faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import background from './assets/images/background.jpg';
+import {faReact} from '@fortawesome/free-brands-svg-icons';
+import backround from './assets/images/background.jpg';
 
-function App() {
-  return (
-    <div className="App" >
-      <div  className="flex bg-cover bg-center bg-fixed h-screen w-screen relative" 
-            style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${background})`}}>
-        <div className="top-0 right-0 fixed mt-6 mr-6">
-            <FontAwesomeIcon className="center" icon={faBars} color="#BBBBBB" size="lg"/>
-        </div>  
-        <div className="m-auto">
-          <h1 className="md:text-5xl text-white font-bold antialiased">
-            Hello, my name is Zach.
-          </h1>
-          <h2 className="text-white font-test antialiased">
-            I design and build software.
-          </h2>
-          <div className="my-8">
-            <button className="btn hover:bg-gray-700 focus:outline-none font-bold antialiased">
-              View my work
-            </button>   
-            <button className="btn hover:bg-gray-700 focus:outline-none ml-6 font-bold antialiased">
-              Contact me
-            </button>   
+class App extends Component {
+
+  render() {
+    return (
+      <div className="App" >
+        <HomeScreen />
+        <AboutMe />
+        <section className="Projects">
+          <div className="h-full"> 
+            <div>
+              <h1 id="Projects" className="p-4 pt-16 font-bold text-center uppercase text-blue-900 tracking-wide antialiased">Projects</h1> 
+            </div>      
+            <div className="flex m-auto px-8 sm:px-16 py-12 max-w-6xl text-xl">
+              <div>
+                <img src={backround} alt="" className="rounded-lg w-64 m-auto"></img>
+                <p className="p-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
+              </div>
+              <div>
+                <img src={backround} alt="" className="rounded-lg w-64 m-auto"></img>
+                <p className="p-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
+              </div>
+              <div>
+                <img src={backround} alt="" className="rounded-lg w-64 m-auto"></img>
+                <p className="p-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
+              </div>
+            </div>
           </div>
-        </div> 
-        <div className="flex w-screen justify-center mb-6 bottom-0 absolute">
-            <FontAwesomeIcon className="center" icon={faChevronDown} color="#BBBBBB" size="lg"/>
-        </div>
-        <div className="sm:mr-8 absolute right-0 bottom-0 ">
-          <ul>
-            <li className="my-6 mx-4 inline-block">
-              <FontAwesomeIcon className="center" icon={faGithub} color="#999999" size="lg"/> 
-            </li>
-            <li className="my-6 mx-4 inline-block">
-              <FontAwesomeIcon className="center" icon={faLinkedin} color="#999999" size="lg"/>
-            </li>
-            <li className="my-6 mx-4 inline-block">
-              <FontAwesomeIcon className="center" icon={faInstagram} color="#999999" size="lg"/>
-            </li>
-          </ul>
-        </div>    
+        </section>
+        <section className="Contact">
+          <div className="bg-gray-900 h-full"> 
+            <div>
+              <h1 id="Contact" className=" p-4 pt-16 font-bold text-center uppercase text-white tracking-wide antialiased">Contact Me</h1> 
+            </div>      
+            <div className="m-auto px-8 sm:px-16 pb-12 max-w-3xl text-white text-xl text-center">
+              <p className="text-gray-100 pb-4">Interested in working together? Let's do this.</p>
+              <div className="m-auto w-full">
+                <form className="bg-gray-800 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                  <div className="mb-4">
+                    <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your name" />
+                  </div>
+                  <div className="mb-6">
+                    <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email address" />
+                  </div>
+                  <div className="mb-6">
+                    <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" type="text" placeholder="Your message" />
+                  </div>
+                  <div>
+                    <button className="btn hover:bg-gray-700 focus:outline-none font-bold antialiased text-lg" type="button">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+                <div className="pt-8">
+                    <ul>
+                        <IconLink url="https://github.com/zcapshaw" icon="Github"/>
+                        <IconLink url="https://www.linkedin.com/in/zcapshaw/" icon="LinkedIn"/>
+                        <IconLink url="https://www.instagram.com/zacapshaw/" icon="Instagram"/>
+                    </ul>
+                </div>   
+                <p className="text-center text-gray-500 m-auto pt-8">
+                  Built with 💙 in Denver, CO &copy; 2019.
+                </p>
+                <div className="flex">
+                  <p className="text-center font-bold text-gray-500 text-xs m-auto pt-8">
+                    Made in <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="center text-white" size="lg" icon={faReact}/> </a>
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-      <section className="about">
-        <div> 
-          <div className="my-16">
-            <h1 className="font-bold text-center uppercase text-gray-700 tracking-wide antialiased">About Me</h1> 
-          </div>      
-          <div className="mx-8 sm:mx-16 pb-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
-            <p>Quidem excepturi beatae sint harum corrupti perferendis aliquid facere enim velit suscipit, tempora blanditiis, rem nam ullam soluta consequuntur ipsa aliquam fuga eius assumenda nemo, facilis sapiente reiciendis quisquam. Vel?</p>
-            <p>Tenetur eaque, rerum dolores perferendis accusantium nemo, eius natus minima non adipisci quisquam quos iusto ipsam vel ducimus! Quo suscipit ipsa consequatur facilis veniam, perferendis nulla odit consectetur tenetur nostrum.</p>
-            <p>Quidem dolores atque sapiente sequi aut ducimus consequatur voluptatem aperiam! Rerum, amet. Aliquid esse odit id architecto sunt cumque, eius sit necessitatibus? Quis voluptatum harum maxime explicabo, illum voluptatem at!</p>
-            <p>Ducimus, amet tempore placeat debitis tempora iure earum, cumque officiis provident laudantium nemo sunt dolorum. Omnis harum rem, aliquam nam dignissimos quo autem repellendus iusto labore quam deserunt laudantium accusamus!</p>
-          </div>
-        </div>
-      </section>
-      <section className="Projects">
-        <div className="bg-gray-300 h-full"> 
-          <div>
-            <h1 className="p-4 pt-16 font-bold text-center uppercase text-gray-700 tracking-wide antialiased">Projects</h1> 
-          </div>      
-          <div className="mx-8 sm:mx-16 pb-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
-            <p>Quidem excepturi beatae sint harum corrupti perferendis aliquid facere enim velit suscipit, tempora blanditiis, rem nam ullam soluta consequuntur ipsa aliquam fuga eius assumenda nemo, facilis sapiente reiciendis quisquam. Vel?</p>
-            <p>Tenetur eaque, rerum dolores perferendis accusantium nemo, eius natus minima non adipisci quisquam quos iusto ipsam vel ducimus! Quo suscipit ipsa consequatur facilis veniam, perferendis nulla odit consectetur tenetur nostrum.</p>
-            <p>Quidem dolores atque sapiente sequi aut ducimus consequatur voluptatem aperiam! Rerum, amet. Aliquid esse odit id architecto sunt cumque, eius sit necessitatibus? Quis voluptatum harum maxime explicabo, illum voluptatem at!</p>
-            <p>Ducimus, amet tempore placeat debitis tempora iure earum, cumque officiis provident laudantium nemo sunt dolorum. Omnis harum rem, aliquam nam dignissimos quo autem repellendus iusto labore quam deserunt laudantium accusamus!</p>
-          </div>
-        </div>
-      </section>
-      <section className="Contact">
-        <div className="bg-gray-900 h-full"> 
-          <div>
-            <h1 className=" p-4 pt-16 font-bold text-center uppercase text-white tracking-wide antialiased">Contact Me</h1> 
-          </div>      
-          <div className="mx-8 sm:mx-16 text-gray-500 pb-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
-            <p>Quidem excepturi beatae sint harum corrupti perferendis aliquid facere enim velit suscipit, tempora blanditiis, rem nam ullam soluta consequuntur ipsa aliquam fuga eius assumenda nemo, facilis sapiente reiciendis quisquam. Vel?</p>
-            <p>Tenetur eaque, rerum dolores perferendis accusantium nemo, eius natus minima non adipisci quisquam quos iusto ipsam vel ducimus! Quo suscipit ipsa consequatur facilis veniam, perferendis nulla odit consectetur tenetur nostrum.</p>
-            <p>Quidem dolores atque sapiente sequi aut ducimus consequatur voluptatem aperiam! Rerum, amet. Aliquid esse odit id architecto sunt cumque, eius sit necessitatibus? Quis voluptatum harum maxime explicabo, illum voluptatem at!</p>
-            <p>Ducimus, amet tempore placeat debitis tempora iure earum, cumque officiis provident laudantium nemo sunt dolorum. Omnis harum rem, aliquam nam dignissimos quo autem repellendus iusto labore quam deserunt laudantium accusamus!</p>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+    );
+  }
+
 }
 
 export default App;

@@ -664,6 +664,14 @@ a {
   padding-bottom: 0.5rem;
 }
 
+.icon {
+  color: #999999
+}
+
+.icon:hover {
+  color: #CCCCCC
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
