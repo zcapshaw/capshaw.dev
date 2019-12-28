@@ -11,7 +11,7 @@ class HomeScreen extends Component {
   render() {
     return (
         <div    id="Home"
-                className="flex sm:bg-cover bg-center bg-fixed h-screen w-screen relative" 
+                className="flex bg-cover bg-center lg:bg-fixed h-screen w-screen relative" 
                 style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${background})`}}>
             <div>
                 <SideNav />
@@ -23,11 +23,11 @@ class HomeScreen extends Component {
             <h2 className="text-white font-test antialiased">
                 I design and build software.
             </h2>
-            <div className="my-8">
-                <button className="btn hover:bg-gray-700 focus:outline-none font-bold antialiased">
+            <div className="flex flex-col md:flex-row my-8">
+                <button className="btn py-4 md:px-6 hover:bg-gray-700 focus:outline-none font-extrabold antialiased">
                     <a href="#Projects" className="no-underline text-white">View my work</a>
                 </button>   
-                <button className="btn hover:bg-gray-700 focus:outline-none ml-6 font-bold antialiased">
+                <button className="btn p-4 hover:bg-gray-700 focus:outline-none md:ml-6 mt-4 md:mt-0 font-extrabold antialiased">
                     <a href="#Contact" className="no-underline text-white">Contact me</a>
                 </button>   
             </div>
