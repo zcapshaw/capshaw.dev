@@ -2,6 +2,10 @@
 
 @tailwind components;
 
+
+html {
+    scroll-behavior: smooth;
+  }
 h1 {
     @apply text-3xl;
     font-family: 'Roboto', sans-serif;
@@ -29,7 +33,6 @@ a {
 .icon:hover {
     color: #FFFFFF;
 }
-
 .burger .burger-lines,
 .burger .burger-lines:after,
 .burger .burger-lines:before  { 
@@ -37,6 +40,9 @@ a {
 }
 .burger  {
     font-size: 8px;
+}
+#footer {
+    font-size: .5rem;
 }
 
 

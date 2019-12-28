@@ -627,6 +627,10 @@ video {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-size: 1.875rem;
   font-family: 'Roboto', sans-serif;
@@ -680,6 +684,10 @@ a {
 
 .burger  {
   font-size: 8px;
+}
+
+#footer {
+  font-size: .5rem;
 }
 
 .sr-only {
