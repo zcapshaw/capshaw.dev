@@ -3,16 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faBars } from '@fortawesome/free-solid-svg-icons'
 import background from '../assets/images/background.jpg';
 import IconLink from '../components/IconLink';
+import MenuButton from '../components/MenuButton';
+import SideNav from '../components/SideNav';
 
 class HomeScreen extends Component {
 
   render() {
     return (
-        <div    className="flex bg-cover bg-center bg-fixed h-screen w-screen relative" 
+        <div    id="Home"
+                className="flex bg-cover bg-center bg-fixed h-screen w-screen relative" 
                 style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${background})`}}>
-            <div className="top-0 right-0 fixed mt-6 mr-6">
-                <FontAwesomeIcon className="center" icon={faBars} color="#BBBBBB" size="lg"/>
-            </div>  
+            <div>
+                <SideNav />
+            </div>
             <div className="m-auto">
             <h1 className="md:text-5xl text-white font-bold antialiased">
                 Hello, my name is Zach.
@@ -30,7 +33,9 @@ class HomeScreen extends Component {
             </div>
             </div> 
             <div className="flex w-screen justify-center mb-6 bottom-0 absolute">
-                <FontAwesomeIcon className="center" icon={faChevronDown} color="#BBBBBB" size="lg"/>
+                <a href="#AboutMe" className="icon">
+                    <FontAwesomeIcon className="center" icon={faChevronDown} size="lg"/>
+                </a>
             </div>
             <div className="sm:mr-8 absolute right-0 bottom-0 ">
                 <ul>

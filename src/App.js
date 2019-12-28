@@ -14,11 +14,11 @@ class App extends Component {
         <HomeScreen />
         <AboutMe />
         <section className="Projects">
-          <div className="h-full"> 
+          <div className="container m-auto"> 
             <div>
               <h1 id="Projects" className="p-4 pt-16 font-bold text-center uppercase text-blue-900 tracking-wide antialiased">Projects</h1> 
             </div>      
-            <div className="flex m-auto px-8 sm:px-16 py-12 max-w-6xl text-xl">
+            <div className="flex flex-col lg:flex-row m-auto px-8 sm:px-16 py-12 max-w-6xl text-xl">
               <div>
                 <img src={backround} alt="" className="rounded-lg w-64 m-auto"></img>
                 <p className="p-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
@@ -46,10 +46,10 @@ class App extends Component {
                   <div className="mb-4">
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your name" />
                   </div>
-                  <div className="mb-6">
+                  <div className="mb-4">
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email address" />
                   </div>
-                  <div className="mb-6">
+                  <div className="mb-4">
                     <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" type="text" placeholder="Your message" />
                   </div>
                   <div>
@@ -65,12 +65,12 @@ class App extends Component {
                         <IconLink url="https://www.instagram.com/zacapshaw/" icon="Instagram"/>
                     </ul>
                 </div>   
-                <p className="text-center text-gray-500 m-auto pt-8">
-                  Built with 💙 in Denver, CO &copy; 2019.
+                <p className="text-center text-gray-500 m-auto pt-8 text-sm">
+                  Made with 💙 in Denver, CO &copy; 2019.
                 </p>
                 <div className="flex">
-                  <p className="text-center font-bold text-gray-500 text-xs m-auto pt-8">
-                    Made in <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="center text-white" size="lg" icon={faReact}/> </a>
+                  <p className="text-center font-bold text-gray-500 text-xs m-auto pt-4">
+                    Built in <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="center text-white" size="lg" icon={faReact}/> </a>
                   </p>
                 </div>
                 
