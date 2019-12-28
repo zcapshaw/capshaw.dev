@@ -10,7 +10,7 @@ class App extends Component {
         <section className="about">
           <div> 
             <div className="my-16">
-              <h1 className="font-bold text-center uppercase text-gray-700 tracking-wide antialiased">About Me</h1> 
+              <h1 id="AboutMe" className="font-bold text-center uppercase text-gray-700 tracking-wide antialiased">About Me</h1> 
             </div>      
             <div className="mx-8 sm:mx-16 pb-12">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
@@ -24,7 +24,7 @@ class App extends Component {
         <section className="Projects">
           <div className="bg-gray-300 h-full"> 
             <div>
-              <h1 className="p-4 pt-16 font-bold text-center uppercase text-gray-700 tracking-wide antialiased">Projects</h1> 
+              <h1 id="Projects" className="p-4 pt-16 font-bold text-center uppercase text-gray-700 tracking-wide antialiased">Projects</h1> 
             </div>      
             <div className="mx-8 sm:mx-16 pb-12">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>
@@ -38,7 +38,7 @@ class App extends Component {
         <section className="Contact">
           <div className="bg-gray-900 h-full"> 
             <div>
-              <h1 className=" p-4 pt-16 font-bold text-center uppercase text-white tracking-wide antialiased">Contact Me</h1> 
+              <h1 id="Contact" className=" p-4 pt-16 font-bold text-center uppercase text-white tracking-wide antialiased">Contact Me</h1> 
             </div>      
             <div className="mx-8 sm:mx-16 text-gray-500 pb-12">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsa repellendus sequi, rem labore consectetur omnis quis perspiciatis facere neque quisquam autem non aspernatur, sit porro quia explicabo amet illum.</p>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faBars } from '@fortawesome/free-solid-svg-icons'
-import {faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import background from '../assets/images/background.jpg';
 import IconLink from '../components/IconLink';
 
@@ -23,10 +22,10 @@ class HomeScreen extends Component {
             </h2>
             <div className="my-8">
                 <button className="btn hover:bg-gray-700 focus:outline-none font-bold antialiased">
-                View my work
+                    <a href="#Projects" className="no-underline text-white">View my work</a>
                 </button>   
                 <button className="btn hover:bg-gray-700 focus:outline-none ml-6 font-bold antialiased">
-                Contact me
+                    <a href="#Contact" className="no-underline text-white">Contact me</a>
                 </button>   
             </div>
             </div> 
