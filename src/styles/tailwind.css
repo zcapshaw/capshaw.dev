@@ -690,6 +690,10 @@ a {
   font-size: .5rem;
 }
 
+svg:hover {
+  fill: red;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

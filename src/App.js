@@ -46,10 +46,10 @@ class App extends Component {
                   <div className="mb-4">
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your name" />
                   </div>
-                  <div className="mb-6">
+                  <div className="mb-4">
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email address" />
                   </div>
-                  <div className="mb-6">
+                  <div className="mb-4">
                     <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" type="text" placeholder="Your message" />
                   </div>
                   <div>

@@ -44,7 +44,9 @@ a {
 #footer {
     font-size: .5rem;
 }
-
+svg:hover {
+    fill: red;
+}
 
 
 @tailwind utilities;
