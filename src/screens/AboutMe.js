@@ -11,7 +11,7 @@ class AboutMe extends Component {
                 <h2 id="AboutMe" className="font-bold text-center uppercase text-white tracking-wide antialiased lg:text-4xl">About Me</h2> 
             </div>
             <div className="lg:flex max-w-md lg:max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-16">
-                <div className="flex m-auto py-8 lg:mx-8 justify-center w-40 lg:w-1/3">
+                <div className="flex m-auto py-8 lg:mx-8 justify-center w-40 lg:w-1/3 overflow-hidden">
                     <img src={headshot} alt="Zach" className="rounded-full"/>
                 </div>
                 <div className="m-auto px-8 pb-8 lg:py-8 max-w-3xl">
