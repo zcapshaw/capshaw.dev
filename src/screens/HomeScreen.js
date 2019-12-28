@@ -11,7 +11,7 @@ class HomeScreen extends Component {
   render() {
     return (
         <div    id="Home"
-                className="flex bg-cover bg-center bg-fixed h-screen w-screen relative" 
+                className="flex sm:bg-cover bg-center bg-fixed h-screen w-screen relative" 
                 style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${background})`}}>
             <div>
                 <SideNav />
