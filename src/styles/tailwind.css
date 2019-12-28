@@ -665,11 +665,21 @@ a {
 }
 
 .icon {
-  color: #999999
+  color: #a0aec0;
 }
 
 .icon:hover {
-  color: #CCCCCC
+  color: #FFFFFF;
+}
+
+.burger .burger-lines,
+.burger .burger-lines:after,
+.burger .burger-lines:before  {
+  background-color: #a0aec0;
+}
+
+.burger  {
+  font-size: 8px;
 }
 
 .sr-only {

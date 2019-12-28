@@ -24,10 +24,21 @@ a {
     @apply text-white text-xs font-medium tracking-wider uppercase border-2 px-6 py-2;
 }
 .icon {
-    color: #999999
+    color: #a0aec0;
 }
 .icon:hover {
-    color: #CCCCCC
+    color: #FFFFFF;
 }
+
+.burger .burger-lines,
+.burger .burger-lines:after,
+.burger .burger-lines:before  { 
+    background-color: #a0aec0;
+}
+.burger  {
+    font-size: 8px;
+}
+
+
 
 @tailwind utilities;

@@ -66,11 +66,11 @@ class App extends Component {
                     </ul>
                 </div>   
                 <p className="text-center text-gray-500 m-auto pt-8">
-                  Built with 💙 in Denver, CO &copy; 2019.
+                  Made with 💙 in Denver, CO &copy; 2019.
                 </p>
                 <div className="flex">
                   <p className="text-center font-bold text-gray-500 text-xs m-auto pt-8">
-                    Made in <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="center text-white" size="lg" icon={faReact}/> </a>
+                    Built in <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="center text-white" size="lg" icon={faReact}/> </a>
                   </p>
                 </div>
                 
