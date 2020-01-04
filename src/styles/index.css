@@ -8,21 +8,25 @@ html {
   }
 h1 {
     @apply text-3xl;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 h2 {
     @apply text-2xl;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 h3 {
     @apply text-xl;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-p  {
-    font-family: 'Roboto', sans-serif;
+p, li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 a {
     @apply text-blue-600 underline;
+}
+.subheader {
+    color: #008BB9;
 }
 .btn {
     @apply text-white text-xs font-medium tracking-wider uppercase border-2 px-6 py-2;

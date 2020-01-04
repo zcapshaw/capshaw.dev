@@ -68,12 +68,16 @@ class App extends Component {
                 <p className="text-center text-gray-500 m-auto pt-8 text-sm">
                   Made with 💙 in Denver, CO &copy; 2019.
                 </p>
+                <div>
+                  <p className="text-center text-gray-500 text-xs m-auto pt-4">
+                    Icons by <a className="text-gray-500" href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank" rel="noopener noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" className="text-gray-500"target="_blank" rel="noopener noreferrer">Flaticon</a> | Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" title="Katie Moum" className="text-gray-500">Katie Moum</a> on <a href="https://www.unsplash.com/" title="Unsplash" target="_blank" rel="noopener noreferrer" className="text-gray-500">Unsplash</a>
+                  </p>
+                </div>
                 <div className="flex">
-                  <p className="text-center font-bold text-gray-500 text-xs m-auto pt-4">
+                  <p className="text-center text-gray-500 text-xs m-auto pt-4">
                     Built in <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="center text-white" size="lg" icon={faReact}/> </a>
                   </p>
                 </div>
-                
               </div>
             </div>
           </div>

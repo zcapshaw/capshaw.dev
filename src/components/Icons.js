@@ -14,4 +14,5 @@ function InstagramIcon() {
     return <FontAwesomeIcon className="center" size="lg" icon={faInstagram}/> 
 }
 
+
 export { GithubIcon, LinkedInIcon, InstagramIcon };

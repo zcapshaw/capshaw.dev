@@ -633,26 +633,31 @@ html {
 
 h1 {
   font-size: 1.875rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h2 {
   font-size: 1.5rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h3 {
   font-size: 1.25rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-p  {
-  font-family: 'Roboto', sans-serif;
+p, li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 a {
   color: #3182ce;
   text-decoration: underline;
+}
+
+.subheader {
+  color: #008BB9;
 }
 
 .btn {
