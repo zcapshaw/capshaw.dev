@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import background from '../assets/images/background.jpg';
 import IconLink from '../components/IconLink';
-import MenuButton from '../components/MenuButton';
 import SideNav from '../components/SideNav';
 
 class HomeScreen extends Component {
