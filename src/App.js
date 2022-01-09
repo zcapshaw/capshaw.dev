@@ -66,7 +66,7 @@ class App extends Component {
                     </ul>
                 </div>   
                 <p className="text-center text-gray-500 m-auto pt-8 text-sm">
-                  Made with 💙 in Denver, CO &copy; 2019.
+                  Made with <span role="img" aria-label="heart emoji">💙</span> in Denver, CO &copy; 2019.
                 </p>
                 <div>
                   <p className="text-center text-gray-500 text-xs m-auto pt-4">
