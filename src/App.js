@@ -30,7 +30,7 @@ class App extends Component {
               <div className="lg:w-1/3">
                 <img src={lexity} alt="" className="rounded-lg w-64 m-auto"></img>
                 <h2 className="text-center pt-4 subheader">Lexity</h2>
-                <p className="p-2 mb-12">Lexity is a social reading list app that I designed and built with my business partner. You can check it out at <a href="https://www.notion.so/Welcome-to-Lexity-425a954329f34f36894624def97e9cc4" target="_blank" rel="noopener noreferrer">Lexity.co</a> or download the app on the <a href="https://apps.apple.com/us/app/lexity/id1528067040" target="_blank">App Store</a></p>
+                <p className="p-2 mb-12">Lexity is a social reading list app that I designed and built with my business partner. You can check it out at <a href="https://www.notion.so/Welcome-to-Lexity-425a954329f34f36894624def97e9cc4" target="_blank" rel="noopener noreferrer">Lexity.co</a> or download the app on the <a href="https://apps.apple.com/us/app/lexity/id1528067040" target="_blank" rel="noopener noreferrer">App Store</a></p>
               </div>
               <div className="lg:w-1/3">
                 <img src={ir} alt="" className="rounded-lg w-64 m-auto"></img>
