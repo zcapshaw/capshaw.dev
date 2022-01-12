@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faGithub, faInstagram, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons';
 
 function GithubIcon() {
     return <FontAwesomeIcon className="center" size="lg" icon={faGithub}/> 

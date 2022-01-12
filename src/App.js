@@ -4,7 +4,6 @@ import AboutMe from './screens/AboutMe';
 import IconLink from './components/IconLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faReact} from '@fortawesome/free-brands-svg-icons';
-import backround from './assets/images/background.jpg';
 import lexity from './assets/images/Lexity.png';
 import tcw from './assets/images/tcw_screenshot.jpeg';
 import ir from './assets/images/image_rec.png';
@@ -26,17 +25,17 @@ class App extends Component {
               <div className="lg:w-1/3">
                 <img src={tcw} alt="" className="rounded-lg w-64 m-auto"></img>
                 <h2 className="text-center pt-4 subheader">The Creative Way</h2>
-                <p className="p-2 mb-12">The Creative Way is a mobile app I designed and built for a client's business. The app has a 4.9 star rating in the iOS <a href="https://apps.apple.com/us/app/the-creative-way-by-ted-dekker/id1458247764" target="_blank">App Store</a> </p>
+                <p className="p-2 mb-12">The Creative Way is a mobile app I designed and built for a client's business. The app has a 4.9 star rating in the iOS <a href="https://apps.apple.com/us/app/the-creative-way-by-ted-dekker/id1458247764" target="_blank" rel="noopener noreferrer">App Store</a> </p>
               </div>
               <div className="lg:w-1/3">
                 <img src={lexity} alt="" className="rounded-lg w-64 m-auto"></img>
                 <h2 className="text-center pt-4 subheader">Lexity</h2>
-                <p className="p-2 mb-12">Lexity is a social reading list app that I designed and built with my business partner. You can check it out at <a href="https://www.notion.so/Welcome-to-Lexity-425a954329f34f36894624def97e9cc4" target="_blank">Lexity.co</a> or download the app on the <a href="https://apps.apple.com/us/app/lexity/id1528067040" target="_blank">App Store</a></p>
+                <p className="p-2 mb-12">Lexity is a social reading list app that I designed and built with my business partner. You can check it out at <a href="https://www.notion.so/Welcome-to-Lexity-425a954329f34f36894624def97e9cc4" target="_blank" rel="noopener noreferrer">Lexity.co</a> or download the app on the <a href="https://apps.apple.com/us/app/lexity/id1528067040" target="_blank">App Store</a></p>
               </div>
               <div className="lg:w-1/3">
                 <img src={ir} alt="" className="rounded-lg w-64 m-auto"></img>
                 <h2 className="text-center pt-4 subheader">MarketX Image Recognition</h2>
-                <p className="p-2 mb-12">I led the product strategy and roadmap for a B2B SaaS app using machine learning and computer vision to recognize products on shelves in the retail industry. You can read more about the product <a href="https://www.form.com/capabilities/image-recognition-app/" target="_blank">here</a>. </p>
+                <p className="p-2 mb-12">I led the product strategy and roadmap for a B2B SaaS app using machine learning and computer vision to recognize products on shelves in the retail industry. You can read more about the product <a href="https://www.form.com/capabilities/image-recognition-app/" target="_blank" rel="noopener noreferrer">here</a>. </p>
               </div>
             </div>
           </div>
@@ -48,7 +47,7 @@ class App extends Component {
             </div>      
             <div className="m-auto px-8 sm:px-16 pb-12 max-w-3xl text-white text-xl text-center">
               <p className="text-gray-100">Interested in working together? Let's do this.</p>
-              <p className="text-gray-100 pb-4">You can reach me by <a href="mailto:zcapshaw@gmail.com">email</a> or on <a href="https://twitter.com/zachcapshaw" target="_blank">Twitter</a>.</p>
+              <p className="text-gray-100 pb-4">You can reach me by <a href="mailto:zcapshaw@gmail.com">email</a> or on <a href="https://twitter.com/zachcapshaw" target="_blank" rel="noopener noreferrer">Twitter</a>.</p>
               <div className="m-auto w-full">
 
                 <div className="pt-8">
