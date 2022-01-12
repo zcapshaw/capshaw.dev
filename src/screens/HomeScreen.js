@@ -40,7 +40,7 @@ class HomeScreen extends Component {
                 <ul>
                     <IconLink url="https://github.com/zcapshaw" icon="Github"/>
                     <IconLink url="https://www.linkedin.com/in/zcapshaw/" icon="LinkedIn"/>
-                    <IconLink url="https://www.instagram.com/zacapshaw/" icon="Instagram"/>
+                    <IconLink url="https://twitter.com/zachcapshaw" icon="Twitter"/>
                 </ul>
             </div>    
         </div>

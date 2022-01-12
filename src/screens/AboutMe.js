@@ -11,12 +11,14 @@ class AboutMe extends Component {
             <div className="pt-32 pb-8">
                 <h2 id="AboutMe" className="font-bold text-center uppercase text-white tracking-wide antialiased lg:text-4xl">About Me</h2> 
             </div>
-            <div className="lg:flex max-w-xs md:max-w-md lg:max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-16">
-                <div className="m-auto py-8 lg:mx-8 w-1/2 lg:w-1/3 overflow-hidden">
+            <div className="lg:flex max-w-xs md:max-w-md lg:max-w-5xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-16">
+                <div className="m-auto py-8 lg:mx-8 w-1/2 overflow-hidden">
                     <img src={headshot} alt="Zach" className="rounded-full"/>
                 </div>
                 <div className="m-auto px-8 pb-8 lg:py-8 max-w-3xl">
-                    <p className="text-xl text-gray-800">I'm an experienced Product Manager, UX Designer, and Developer. I've worked in Product Devlopment at multiple startups and as a consultant helping clients design, build, and launch apps. </p>
+                    <p className="text-xl text-gray-800 pb-4">I'm an experienced product manager, UX designer, and software developer. </p>
+                    <p className="text-xl text-gray-800">I've worked in product leadership at multiple startups and as a consultant helping clients design, build, and launch apps. </p>
+
                 </div>
             </div>
           </div>
@@ -25,45 +27,38 @@ class AboutMe extends Component {
                     <Rocket height="5rem" width="5rem" className="mx-auto mt-16 mb-8"/>
                     <h1 className="text-gray-800 font-bold text-center">Product Manager</h1>
                     <p className="text-xl text-gray-800 text-center py-4">I love bringing products from concept to launch.</p>
-                    <h2 className="text-center pt-2 subheader">Skillset</h2>
-                    <ul className="text-xl text-gray-800 text-center">
-                        <li className="py-2">B2B & consumer apps</li>
-                        <li className="py-2">Product vision & strategy</li>
-                        <li className="py-2">MVP scoping</li>
-                        <li className="py-2">Product roadmaps</li>
-                        <li className="py-2">User research & analytics</li>
-                        <li className="py-2">Scrum & agile</li>
+                    <h2 className="text-center pt-2 subheader">Skills</h2>
+                    <ul className="text-lg text-gray-600 text-center">
+                        <li className="py-1">Building Product teams</li>
+                        <li className="py-1">Product vision & strategy</li>
+                        <li className="py-1">Scrum & agile coaching</li>
+                        <li className="py-1">Experience in B2B, B2C, Machine Learning, AI, and Web3</li>
                     </ul>
                 </div>
                 <div className="lg:mx-4 lg:w-1/3">
                     <Pencil height="5rem" width="5rem" className="mx-auto mt-16 mb-8"/>
                     <h1 className="text-gray-800 font-bold text-center">Designer</h1>
                     <p className="text-xl text-gray-800 text-center py-4">Software interfaces should be clean, simple, and intuitive.</p>
-                    <h2 className="text-center pt-2 subheader">Skillset</h2>
-                    <ul className="text-xl text-gray-800 text-center">
-                        <li className="py-2">UI / UX design</li>
-                        <li className="py-2">Responive web & native mobile</li>
-                        <li className="py-2">Usability testing</li>
-                        <li className="py-2">Wireframes & prototyping</li>
-                        <li className="py-2">Sketch</li>
-                        <li className="py-2">Balsamiq</li>
-                        <li className="py-2">InVision</li>
-                        <li className="py-2">Adobe Creative Suite</li>
+                    <h2 className="text-center pt-2 subheader">Skills</h2>
+                    <ul className="text-lg text-gray-600 text-center">
+                        <li className="py-1">UI / UX design</li>
+                        <li className="py-1">Responive web & native mobile</li>
+                        <li className="py-1">Usability testing</li>
+                        <li className="py-1">Wireframes & prototyping</li>
+
                     </ul>
                 </div>
                 <div className="lg:mx-4 lg:w-1/3">
                     <Code height="5rem" width="5rem" className="mx-auto mt-16 mb-8"/>
                     <h1 className="text-gray-800 font-bold text-center">Developer</h1>
                     <p className="text-xl text-gray-800 text-center py-4">I build full-stack web apps and native mobile apps.</p>
-                    <h2 className="text-center pt-2 subheader">Skillset</h2>
-                    <ul className="text-xl text-gray-800 text-center">
-                        <li className="py-2">HTML5 & CSS3</li>
-                        <li className="py-2">JavaScript</li>
-                        <li className="py-2">React & React Native</li>
-                        <li className="py-2">Node.js & Express</li>
-                        <li className="py-2">Firebase</li>
-                        <li className="py-2">MongoDB</li>
-                        <li className="py-2">PostgreSQL</li>
+                    <h2 className="text-center pt-2 subheader">Skills</h2>
+                    <ul className="text-lg text-gray-600 text-center">
+                        <li className="py-1">HTML/CSS/JS</li>
+                        <li className="py-1">TypeScript</li>
+                        <li className="py-1">React & React Native</li>
+                        <li className="py-1">Flutter</li>
+                        <li className="py-1">Node.js & Express</li>
                     </ul>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { GithubIcon, LinkedInIcon, InstagramIcon } from './Icons';
+import { GithubIcon, LinkedInIcon, TwitterIcon } from './Icons';
 
 
 class IconLink extends Component {
@@ -10,8 +10,8 @@ class IconLink extends Component {
                 return <GithubIcon />
             case 'LinkedIn': 
                 return <LinkedInIcon />
-            case 'Instagram':
-                return <InstagramIcon />
+            case 'Twitter':
+                return <TwitterIcon />
             default:
                 return null;
         }
